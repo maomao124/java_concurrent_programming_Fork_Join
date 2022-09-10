@@ -28,7 +28,7 @@ public class Test
     public static void main(String[] args)
     {
         ForkJoinPool forkJoinPool = new ForkJoinPool();
-        Integer result = forkJoinPool.invoke(new AddTask(1, 10));
+        Integer result = forkJoinPool.invoke(new AddTask(1, 15));
         log.info("结果：" + result);
     }
 }
